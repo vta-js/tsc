@@ -3,11 +3,11 @@ node_js:
   - 12.6.0
 
 install:
-  - npm install
-  - npm install -g codecov
+  - yarn
+  - yarn add codecov --dev
 
 script:
-  - npm run test
-  
+  - yarn run test
+
 after_success:
   - codecov

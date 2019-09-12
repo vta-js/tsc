@@ -4,3 +4,4 @@
 package-lock.json
 *.lock
 *-error.log
+!yarn.lock
