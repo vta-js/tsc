@@ -1,7 +1,7 @@
 {
   "name": "@vta/tsc",
   "version": "0.0.6",
-  "description": "compile ts files to js files use tsc and babel",
+  "description": "compile Typescript files to Javascript files using Typescript and Babel",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "bin": {
