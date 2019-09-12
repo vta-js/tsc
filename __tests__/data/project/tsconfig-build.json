@@ -1,0 +1,9 @@
+{
+  "extends": "../../../tsconfig-build.json",
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "compilerOptions": {
+    "module": "amd",
+    "target": "es6",
+    "jsx": "react"
+  }
+}

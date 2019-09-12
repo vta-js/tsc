@@ -1,0 +1,85 @@
+{
+  "name": "@vta/tsc",
+  "version": "0.0.6",
+  "description": "compile ts files to js files use tsc and babel",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "bin": {
+    "vta-tsc": "./dist/bin/vta-tsc.js"
+  },
+  "engines": {
+    "node": ">= 12.6.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "build": "npm run lint && vta-tsc -p tsconfig-build.json",
+    "publish": "yarn run build && npm publish --registry https://registry.npmjs.org",
+    "test": "jest",
+    "test:u": "jest --updateSnapshot",
+    "format": "prettier --write \"**/*.{js,ts,json}\""
+  },
+  "keywords": [
+    "vta",
+    "TypeScript",
+    "Babel"
+  ],
+  "author": "vta@yhbit.net",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vta-js/tsc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vta-js/tsc/issues"
+  },
+  "homepage": "https://github.com/vta-js/tsc#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/cross-spawn": "^6.0.0",
+    "@types/fs-extra": "^8.0.0",
+    "@types/glob": "^7.0.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.6.0",
+    "@types/react": "^16.9.0",
+    "@types/tmp": "^0.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "@vta/tsc": "^0.0.5",
+    "cross-spawn": "^7.0.0",
+    "eslint": "^6.0.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jest": "^22.14.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.12.0",
+    "eslint-plugin-react-hooks": "^2.0.0",
+    "jest": "^24.8.0",
+    "lerna": "^3.16.0",
+    "prettier": "^1.18.0",
+    "react": "^16.9.0",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.6.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.6.0",
+    "chalk": "^2.4.0",
+    "commander": "^3.0.0",
+    "core-js": "^3.0.0",
+    "cross-spawn": "^7.0.0",
+    "fs-extra": "^8.0.0",
+    "glob": "^7.0.0",
+    "ora": "^3.4.0",
+    "tmp": "^0.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^3.6.0"
+  }
+}

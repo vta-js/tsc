@@ -1,0 +1,8 @@
+/node_modules/
+/src/
+/__tests__/
+/coverage/
+/*.*rc
+/*.*ignore
+/*.config.js
+/tsconfig*.json
