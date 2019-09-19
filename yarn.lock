@@ -1920,19 +1920,19 @@
     eslint-plugin-react "^7.12.0"
     eslint-plugin-react-hooks "^1.7.0"
 
-"@vta/eslint-config-typescript@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@vta/eslint-config-typescript/download/@vta/eslint-config-typescript-1.0.0.tgz#8fdea79953faffaba02003f9a3f1a79b8039d0cd"
-  integrity sha1-j96nmVP6/6ugIAP5o/Gnm4A50M0=
+"@vta/eslint-config-typescript@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/@vta/eslint-config-typescript/download/@vta/eslint-config-typescript-1.0.1.tgz#2b6f7ea9daf0df9be3a327af4bb4a2f649e98b32"
+  integrity sha1-K29+qdrw35vjoyevS7Si9knpizI=
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.0.0"
     "@typescript-eslint/parser" "^2.0.0"
-    "@vta/eslint-config" "^1.0.0"
+    "@vta/eslint-config" "^1.0.1"
 
-"@vta/eslint-config@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@vta/eslint-config/download/@vta/eslint-config-1.0.0.tgz#1bb307e3106e8b40d5eaad1d955e8a66e84b6174"
-  integrity sha1-G7MH4xBui0DV6q0dlV6KZuhLYXQ=
+"@vta/eslint-config@^1.0.0", "@vta/eslint-config@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/@vta/eslint-config/download/@vta/eslint-config-1.0.1.tgz#fb55ddbee1860e033987bdc31f48c7a38663e584"
+  integrity sha1-+1XdvuGGDgM5h73DH0jHo4Zj5YQ=
   dependencies:
     eslint-config-airbnb-base "^14.0.0"
     eslint-config-prettier "^6.0.0"
