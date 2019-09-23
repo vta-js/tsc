@@ -19,7 +19,7 @@ export interface TscOption {
 }
 
 export default async function tsc(options: TscOption): Promise<Error> {
-  const spinner = options.silent ? undefined : ora().start();
+  const spinner = options.silent ? undefined : ora({ discardStdin: false }).start();
   const log = (msg: string): void => {
     if (spinner) {
       spinner.text = `[@vta/tsc] ${msg}`;

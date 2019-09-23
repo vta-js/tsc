@@ -1,6 +1,6 @@
 {
   "name": "@vta/tsc",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "compile Typescript files to Javascript files using Typescript and Babel",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -48,7 +48,7 @@
     "@types/tmp": "^0.1.0",
     "@vta/eslint-config-react": "^1.0.0",
     "@vta/eslint-config-typescript": "^1.0.0",
-    "@vta/tsc": "^0.0.6",
+    "@vta/tsc": "^1.0.0",
     "cross-spawn": "^7.0.0",
     "eslint": "^6.4.0",
     "jest": "^24.8.0",
@@ -66,7 +66,7 @@
     "cross-spawn": "^7.0.0",
     "fs-extra": "^8.0.0",
     "glob": "^7.0.0",
-    "ora": "^3.4.0",
+    "ora": "^4.0.0",
     "tmp": "^0.1.0"
   },
   "peerDependencies": {
