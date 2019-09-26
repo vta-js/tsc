@@ -1,5 +1,9 @@
 {
+  "root": true,
   "extends": ["@vta/eslint-config-react/typescript"],
+  "parserOptions": {
+    "project": "__tests__/data/project/tsconfig.eslint.json"
+  },
   "rules": {
     "import/no-extraneous-dependencies": "off",
     "react/prop-types": "off",

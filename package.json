@@ -1,6 +1,6 @@
 {
   "name": "@vta/tsc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "compile Typescript files to Javascript files using Typescript and Babel",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -13,10 +13,11 @@
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "build": "npm run lint && vta-tsc -p tsconfig-build.json",
-    "publish": "yarn run build && npm publish --registry https://registry.npmjs.org",
+    "npm-publish": "yarn run build && npm publish --registry https://registry.npmjs.org",
     "test": "jest",
     "test:u": "jest --updateSnapshot",
-    "format": "prettier --write \"**/*.{js,ts,json}\""
+    "format": "prettier --write \"**/*.{js,ts,json}\"",
+    "install": "node scripts/install"
   },
   "keywords": [
     "vta",
