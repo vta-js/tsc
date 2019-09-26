@@ -1125,9 +1125,9 @@
     eslint-plugin-prettier "^3.0.0"
 
 "@vta/tsc@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npm.taobao.org/@vta/tsc/download/@vta/tsc-1.0.0.tgz#1c426e3f666c4ddfa044cf28c81f6ed676eabdb5"
-  integrity sha1-HEJuP2ZsTd+gRM8oyB9u1nbqvbU=
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/@vta/tsc/download/@vta/tsc-1.0.2.tgz#d23159de939363ffaaf1f25fade8c9fa2f46cfc4"
+  integrity sha1-0jFZ3pOTY/+q8fJfrejJ+i9Gz8Q=
   dependencies:
     "@babel/runtime" "^7.6.0"
     chalk "^2.4.0"
