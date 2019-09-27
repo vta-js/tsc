@@ -17,7 +17,8 @@
     "test": "jest",
     "test:u": "jest --updateSnapshot",
     "format": "prettier --write \"**/*.{js,ts,json}\"",
-    "install": "node scripts/install"
+    "install": "node scripts/install",
+    "dep-upgrade": "yarn upgrade && yarn run install"
   },
   "keywords": [
     "vta",
