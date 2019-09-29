@@ -1124,6 +1124,15 @@
     eslint-plugin-jest "^22.14.0"
     eslint-plugin-prettier "^3.0.0"
 
+"@vta/format-npm-yarn-lock@^1.0.0":
+  version "1.0.5"
+  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.5.tgz#a54da68a58f0200bad5e99d33396f627938acefc"
+  integrity sha1-pU2miljwIAutXpnTM5b2J5OKzvw=
+  dependencies:
+    commander "^3.0.0"
+    cross-spawn "^7.0.0"
+    fs-extra "^8.0.0"
+
 "@vta/tsc@^1.0.0":
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/@vta/tsc/download/@vta/tsc-1.0.2.tgz#d23159de939363ffaaf1f25fade8c9fa2f46cfc4"
@@ -2154,9 +2163,9 @@ eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
   integrity sha1-4qgs6oT/JGrW+1f5veW0ZiFFnsI=
 
 eslint@^6.4.0:
-  version "6.4.0"
-  resolved "https://registry.npm.taobao.org/eslint/download/eslint-6.4.0.tgz#5aa9227c3fbe921982b2eda94ba0d7fae858611a"
-  integrity sha1-WqkifD++khmCsu2pS6DX+uhYYRo=
+  version "6.5.0"
+  resolved "https://registry.npm.taobao.org/eslint/download/eslint-6.5.0.tgz#304623eec903969dd5c9f2d61c6ce3d6ecec8750"
+  integrity sha1-MEYj7skDlp3VyfLWHGzj1uzsh1A=
   dependencies:
     "@babel/code-frame" "^7.0.0"
     ajv "^6.10.0"
@@ -4058,9 +4067,9 @@ optionator@^0.8.1, optionator@^0.8.2:
     wordwrap "~1.0.0"
 
 ora@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.npm.taobao.org/ora/download/ora-4.0.1.tgz#e0ddf8fcdcf28cf714f742f06a493cc84819621c"
-  integrity sha1-4N34/NzyjPcU90Lwakk8yEgZYhw=
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/ora/download/ora-4.0.2.tgz#0e1e68fd45b135d28648b27cf08081fa6e8a297d"
+  integrity sha1-Dh5o/UWxNdKGSLJ88ICB+m6KKX0=
   dependencies:
     chalk "^2.4.2"
     cli-cursor "^3.1.0"

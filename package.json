@@ -13,12 +13,12 @@
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "build": "npm run lint && vta-tsc -p tsconfig-build.json",
-    "npm-publish": "yarn run build && npm publish --registry https://registry.npmjs.org",
+    "npm-publish": "yarn run build && npm publish --access public --registry https://registry.npmjs.org",
     "test": "jest",
     "test:u": "jest --updateSnapshot",
     "format": "prettier --write \"**/*.{js,ts,json}\"",
-    "install": "node scripts/install",
-    "dep-upgrade": "yarn upgrade && yarn run install"
+    "format-lock": "vta-format-npm-yarn-lock",
+    "dep-upgrade": "yarn upgrade && yarn run format-lock"
   },
   "keywords": [
     "vta",
@@ -50,6 +50,7 @@
     "@types/tmp": "^0.1.0",
     "@vta/eslint-config-react": "^1.0.0",
     "@vta/eslint-config-typescript": "^1.0.0",
+    "@vta/format-npm-yarn-lock": "^1.0.0",
     "@vta/tsc": "^1.0.0",
     "cross-spawn": "^7.0.0",
     "eslint": "^6.4.0",

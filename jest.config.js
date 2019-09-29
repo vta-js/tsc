@@ -4,4 +4,5 @@ module.exports = {
   testPathIgnorePatterns: ["/node_modules/", "/__tests__/(.+/)?data/", "/__tests__/(.+/)?utils/"],
   moduleNameMapper: {},
   collectCoverage: true,
+  coveragePathIgnorePatterns: ["/node_modules/", "/__tests__/"],
 };
