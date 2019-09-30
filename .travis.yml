@@ -12,6 +12,7 @@ install:
   - yarn add codecov --dev
 
 script:
+  - yarn run lint
   - yarn run test
 
 after_success:

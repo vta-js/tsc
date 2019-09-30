@@ -1125,12 +1125,11 @@
     eslint-plugin-prettier "^3.0.0"
 
 "@vta/format-npm-yarn-lock@^1.0.0":
-  version "1.0.5"
-  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.5.tgz#a54da68a58f0200bad5e99d33396f627938acefc"
-  integrity sha1-pU2miljwIAutXpnTM5b2J5OKzvw=
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.6.tgz#89f4596011128273bf13bb50526df243d356c55b"
+  integrity sha1-ifRZYBESgnO/E7tQUm3yQ9NWxVs=
   dependencies:
     commander "^3.0.0"
-    cross-spawn "^7.0.0"
     fs-extra "^8.0.0"
 
 "@vta/tsc@^1.0.0":
@@ -1950,9 +1949,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.247:
-  version "1.3.267"
-  resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.267.tgz#7745ff9d447fd2a9802e1c6dfa518631e0cf5357"
-  integrity sha1-d0X/nUR/0qmALhxt+lGGMeDPU1c=
+  version "1.3.268"
+  resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.268.tgz#d18f10b064dd0fce39098704896309a8249cb62f"
+  integrity sha1-0Y8QsGTdD845CYcEiWMJqCScti8=
 
 emoji-regex@^7.0.1, emoji-regex@^7.0.2:
   version "7.0.3"
@@ -2584,9 +2583,9 @@ growly@^1.3.0:
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
 handlebars@^4.1.2:
-  version "4.3.4"
-  resolved "https://registry.npm.taobao.org/handlebars/download/handlebars-4.3.4.tgz#aab065294c27ad16ff4e711240a7288d2753306d"
-  integrity sha1-qrBlKUwnrRb/TnESQKcojSdTMG0=
+  version "4.4.0"
+  resolved "https://registry.npm.taobao.org/handlebars/download/handlebars-4.4.0.tgz#22e1a897c5d83023d39801f35f6b65cf97ed8b25"
+  integrity sha1-IuGol8XYMCPTmAHzX2tlz5ftiyU=
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
