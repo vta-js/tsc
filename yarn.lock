@@ -1124,13 +1124,12 @@
     eslint-plugin-jest "^22.14.0"
     eslint-plugin-prettier "^3.0.0"
 
-"@vta/format-npm-yarn-lock@^1.0.0":
-  version "1.0.5"
-  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.5.tgz#a54da68a58f0200bad5e99d33396f627938acefc"
-  integrity sha1-pU2miljwIAutXpnTM5b2J5OKzvw=
+"@vta/format-npm-yarn-lock@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.6.tgz#89f4596011128273bf13bb50526df243d356c55b"
+  integrity sha1-ifRZYBESgnO/E7tQUm3yQ9NWxVs=
   dependencies:
     commander "^3.0.0"
-    cross-spawn "^7.0.0"
     fs-extra "^8.0.0"
 
 "@vta/tsc@^1.0.0":
