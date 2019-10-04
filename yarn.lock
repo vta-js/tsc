@@ -918,10 +918,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/cross-spawn@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.npm.taobao.org/@types/cross-spawn/download/@types/cross-spawn-6.0.0.tgz#320aaf1d1a12979f1b84fe7a5590a7e860bf3a80"
-  integrity sha1-MgqvHRoSl58bhP56VZCn6GC/OoA=
+"@types/cross-spawn@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.npm.taobao.org/@types/cross-spawn/download/@types/cross-spawn-6.0.1.tgz#60fa0c87046347c17d9735e5289e72b804ca9b63"
+  integrity sha1-YPoMhwRjR8F9lzXlKJ5yuATKm2M=
   dependencies:
     "@types/node" "*"
 
