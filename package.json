@@ -40,7 +40,7 @@
     "@babel/core": "^7.6.0",
     "@babel/plugin-transform-runtime": "^7.6.0",
     "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-react": "^7.6.3",
     "@types/cross-spawn": "^6.0.0",
     "@types/fs-extra": "^8.0.0",
     "@types/glob": "^7.0.0",
