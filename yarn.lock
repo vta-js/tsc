@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@babel/cli@^7.6.0":
-  version "7.6.2"
-  resolved "https://registry.npm.taobao.org/@babel/cli/download/@babel/cli-7.6.2.tgz#4ce8b5b4b2e4b4c1b7bd841cec62085e2dfc4465"
-  integrity sha1-TOi1tLLktMG3vYQc7GIIXi38RGU=
+"@babel/cli@^7.6.3":
+  version "7.6.3"
+  resolved "https://registry.npm.taobao.org/@babel/cli/download/@babel/cli-7.6.3.tgz#1b0c62098c8a5e01e4a4a59a52cba9682e7e0906"
+  integrity sha1-GwxiCYyKXgHkpKWaUsupaC5+CQY=
   dependencies:
     commander "^2.8.1"
     convert-source-map "^1.1.0"
@@ -15,7 +15,7 @@
     mkdirp "^0.5.1"
     output-file-sync "^2.0.0"
     slash "^2.0.0"
-    source-map "^0.5.0"
+    source-map "^0.6.1"
   optionalDependencies:
     chokidar "^2.1.8"
 
