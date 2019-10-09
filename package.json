@@ -62,7 +62,7 @@
     "typescript": "^3.6.0"
   },
   "dependencies": {
-    "@babel/runtime": "^7.6.0",
+    "@babel/runtime": "^7.6.3",
     "chalk": "^2.4.0",
     "commander": "^3.0.0",
     "core-js": "^3.0.0",
