@@ -1954,9 +1954,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.247:
-  version "1.3.278"
-  resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.278.tgz#04c8f96382395aca225bc340be6b9dbbe2bf50eb"
-  integrity sha1-BMj5Y4I5WsoiW8NAvmudu+K/UOs=
+  version "1.3.280"
+  resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.280.tgz#5f8950c8329e3e11b59c705fd59b4b8d9b3de5b9"
+  integrity sha1-X4lQyDKePhG1nHBf1ZtLjZs95bk=
 
 emoji-regex@^7.0.1, emoji-regex@^7.0.2:
   version "7.0.3"
@@ -3896,9 +3896,9 @@ npm-bundled@^1.0.1:
   integrity sha1-57qarc75YrthJI+RchzZMrP+a90=
 
 npm-packlist@^1.1.6:
-  version "1.4.4"
-  resolved "https://registry.npm.taobao.org/npm-packlist/download/npm-packlist-1.4.4.tgz#866224233850ac534b63d1a6e76050092b5d2f44"
-  integrity sha1-hmIkIzhQrFNLY9Gm52BQCStdL0Q=
+  version "1.4.6"
+  resolved "https://registry.npm.taobao.org/npm-packlist/download/npm-packlist-1.4.6.tgz#53ba3ed11f8523079f1457376dd379ee4ea42ff4"
+  integrity sha1-U7o+0R+FIwefFFc3bdN57k6kL/Q=
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
@@ -5226,9 +5226,9 @@ type-check@~0.3.2:
     prelude-ls "~1.1.2"
 
 typescript@^3.6.0:
-  version "3.6.3"
-  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.6.3.tgz#fea942fabb20f7e1ca7164ff626f1a9f3f70b4da"
-  integrity sha1-/qlC+rsg9+HKcWT/Ym8anz9wtNo=
+  version "3.6.4"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-3.6.4.tgz#b18752bb3792bc1a0281335f7f6ebf1bbfc5b91d"
+  integrity sha1-sYdSuzeSvBoCgTNff26/G7/FuR0=
 
 uglify-js@^3.1.4:
   version "3.6.1"
