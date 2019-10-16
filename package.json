@@ -42,7 +42,7 @@
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.6.0",
     "@types/cross-spawn": "^6.0.0",
-    "@types/fs-extra": "^8.0.0",
+    "@types/fs-extra": "^8.0.1",
     "@types/glob": "^7.0.0",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.6.0",
