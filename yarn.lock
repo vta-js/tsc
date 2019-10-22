@@ -1125,10 +1125,10 @@
     eslint-plugin-jest "^22.14.0"
     eslint-plugin-prettier "^3.0.0"
 
-"@vta/format-npm-yarn-lock@^1.0.0":
-  version "1.0.7"
-  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.7.tgz#212ad6c5f696bd967d7c9f376cb61b031aee2813"
-  integrity sha1-ISrWxfaWvZZ9fJ83bLYbAxruKBM=
+"@vta/format-npm-yarn-lock@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.npm.taobao.org/@vta/format-npm-yarn-lock/download/@vta/format-npm-yarn-lock-1.0.8.tgz#500ae8f426eaebf774ee89c9b177158de7a550d3"
+  integrity sha1-UAro9Cbq6/d07onJsXcVjeelUNM=
   dependencies:
     commander "^3.0.0"
     fs-extra "^8.0.0"
