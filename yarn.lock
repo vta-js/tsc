@@ -1091,16 +1091,16 @@
     lodash.unescape "4.0.1"
     semver "^6.3.0"
 
-"@vta/eslint-config-react@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/@vta/eslint-config-react/download/@vta/eslint-config-react-1.0.2.tgz#31bf5e80a4f4a441d1f2f30f652139f2590952b1"
-  integrity sha1-Mb9egKT0pEHR8vMPZSE58lkJUrE=
+"@vta/eslint-config-react@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/@vta/eslint-config-react/download/@vta/eslint-config-react-1.0.3.tgz#15757b2cec07510deb8dcbacae1714312db28b49"
+  integrity sha1-FXV7LOwHUQ3rjcusrhcUMS2yi0k=
   dependencies:
-    "@vta/eslint-config" "^1.0.2"
+    "@vta/eslint-config" "^1.0.3"
     eslint-config-airbnb "^18.0.0"
     eslint-plugin-import "^2.18.0"
     eslint-plugin-jsx-a11y "^6.2.0"
-    eslint-plugin-react "^7.12.0"
+    eslint-plugin-react "^7.16.0"
     eslint-plugin-react-hooks "^2.0.0"
 
 "@vta/eslint-config-typescript@^1.0.0":
@@ -1112,10 +1112,10 @@
     "@typescript-eslint/parser" "^2.0.0"
     "@vta/eslint-config" "^1.0.2"
 
-"@vta/eslint-config@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npm.taobao.org/@vta/eslint-config/download/@vta/eslint-config-1.0.2.tgz#03f481194ee1da690dbfae932adacbe8df0e55f1"
-  integrity sha1-A/SBGU7h2mkNv66TKtrL6N8OVfE=
+"@vta/eslint-config@^1.0.2", "@vta/eslint-config@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/@vta/eslint-config/download/@vta/eslint-config-1.0.3.tgz?cache=0&sync_timestamp=1571734652623&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vta%2Feslint-config%2Fdownload%2F%40vta%2Feslint-config-1.0.3.tgz#f1da9a814cc7f195bdf5b384723499a2ac935826"
+  integrity sha1-8dqagUzH8ZW99bOEcjSZoqyTWCY=
   dependencies:
     babel-eslint "^10.0.0"
     eslint-config-airbnb-base "^14.0.0"
@@ -2154,7 +2154,7 @@ eslint-plugin-react-hooks@^2.0.0:
   resolved "https://registry.npm.taobao.org/eslint-plugin-react-hooks/download/eslint-plugin-react-hooks-2.1.2.tgz#1358d2acb2c5e02b7e90c37e611ac258a488e3a7"
   integrity sha1-E1jSrLLF4Ct+kMN+YRrCWKSI46c=
 
-eslint-plugin-react@^7.12.0:
+eslint-plugin-react@^7.16.0:
   version "7.16.0"
   resolved "https://registry.npm.taobao.org/eslint-plugin-react/download/eslint-plugin-react-7.16.0.tgz#9928e4f3e2122ed3ba6a5b56d0303ba3e41d8c09"
   integrity sha1-mSjk8+ISLtO6altW0DA7o+QdjAk=
