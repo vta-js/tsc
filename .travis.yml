@@ -13,6 +13,7 @@ install:
   - yarn add codecov --dev
 
 script:
+  - commitlint-travis
   - yarn run lint
   - yarn run test
 
