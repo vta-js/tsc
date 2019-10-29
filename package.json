@@ -48,7 +48,7 @@
     "@types/node": "^12.6.0",
     "@types/react": "^16.9.0",
     "@types/tmp": "^0.1.0",
-    "@vta/eslint-config-react": "^1.0.0",
+    "@vta/eslint-config-react": "^1.1.0",
     "@vta/eslint-config-typescript": "^1.0.0",
     "@vta/format-npm-yarn-lock": "^1.0.0",
     "@vta/tsc": "^1.0.0",
