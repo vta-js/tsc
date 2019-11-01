@@ -27,6 +27,7 @@ function testDistFile(file: string, expectedExists = true): Promise<void> {
   });
 }
 
+/* eslint-disable jest/expect-expect */
 describe("tsc", () => {
   it("node-12.6.0", () =>
     tsc({
