@@ -94,7 +94,7 @@
   "dependencies": {
     "@babel/runtime": "^7.6.0",
     "chalk": "^2.4.0",
-    "commander": "^3.0.0",
+    "commander": "^4.0.0",
     "core-js": "^3.0.0",
     "cross-spawn": "^7.0.0",
     "fs-extra": "^8.0.0",
