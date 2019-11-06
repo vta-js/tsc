@@ -7,6 +7,7 @@ branches:
   except:
     - dev
     - /^dev-.+$/
+    - /^dependabot.+$/
 
 install:
   - yarn
