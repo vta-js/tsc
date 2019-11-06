@@ -701,7 +701,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.4.5", "@babel/runtime@^7.6.0", "@babel/runtime@^7.7.0":
+"@babel/runtime@^7.4.5", "@babel/runtime@^7.7.0":
   version "7.7.1"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.7.1.tgz#b223497bbfbcbbb38116673904debc71470ca528"
   integrity sha1-siNJe7+8u7OBFmc5BN68cUcMpSg=
@@ -1323,13 +1323,13 @@
     fs-extra "^8.0.0"
 
 "@vta/tsc@^1.0.0":
-  version "1.0.4"
-  resolved "https://registry.npm.taobao.org/@vta/tsc/download/@vta/tsc-1.0.4.tgz#f2986eb47f71b0e167e665d93cde3baedeb1918d"
-  integrity sha1-8phutH9xsOFn5mXZPN47rt6xkY0=
+  version "1.0.5"
+  resolved "https://registry.npm.taobao.org/@vta/tsc/download/@vta/tsc-1.0.5.tgz#0fd8d2a53980585812e2a359343992572fda9bd6"
+  integrity sha1-D9jSpTmAWFgS4qNZNDmSVy/am9Y=
   dependencies:
-    "@babel/runtime" "^7.6.0"
+    "@babel/runtime" "^7.7.0"
     chalk "^2.4.0"
-    commander "^3.0.0"
+    commander "^4.0.0"
     core-js "^3.0.0"
     cross-spawn "^7.0.0"
     fs-extra "^8.0.0"
