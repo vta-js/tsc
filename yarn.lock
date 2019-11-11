@@ -2033,10 +2033,10 @@ commander@^3.0.0:
   resolved "https://registry.npm.taobao.org/commander/download/commander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
   integrity sha1-aDfD+2d62ZM9HPukLdFNURfWs54=
 
-commander@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-4.0.0.tgz#e782b6afe6a0f1b1408be59429919e1305160e3f"
-  integrity sha1-54K2r+ag8bFAi+WUKZGeEwUWDj8=
+commander@^4.0.0, commander@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npm.taobao.org/commander/download/commander-4.0.1.tgz#b67622721785993182e807f4883633e6401ba53c"
+  integrity sha1-tnYicheFmTGC6Af0iDYz5kAbpTw=
 
 compare-func@^1.3.1:
   version "1.3.2"
