@@ -1,3 +1,9 @@
+## [1.0.6](https://github.com/vta-js/tsc/compare/v1.0.5...v1.0.6) (2019-11-12)
+
+### Features
+
+- **deps:** bump chalk to 3.0.0 ([734d150](https://github.com/vta-js/tsc/commit/734d1501a596d504fcf1d83dc83e886ee4026b27))
+
 ## [1.0.5](https://github.com/vta-js/tsc/compare/v1.0.4...v1.0.5) (2019-11-06)
 
 ### Features
