@@ -1,5 +1,12 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["*.js", "src/**/*.ts", "src/**/*.js", "scripts/**/*.js", "__tests__/tsc.ts"],
+  "include": [
+    "*.js",
+    "src/**/*.ts",
+    "src/**/*.js",
+    "scripts/**/*.js",
+    "scripts/**/*.ts",
+    "__tests__/tsc.ts"
+  ],
   "compilerOptions": {}
 }
