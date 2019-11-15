@@ -1,3 +1,9 @@
+# [1.1.0](https://github.com/vta-js/tsc/compare/v1.0.6...v1.1.0) (2019-11-15)
+
+### Features
+
+- add exclude option to exclude some files ([9461381](https://github.com/vta-js/tsc/commit/94613815beeb3512af331a7fc426cf8440bcb5cb))
+
 ## [1.0.6](https://github.com/vta-js/tsc/compare/v1.0.5...v1.0.6) (2019-11-12)
 
 ### Features
