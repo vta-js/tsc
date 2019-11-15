@@ -40,8 +40,10 @@ export default async function tsc(options: TscOptions, log: (msg: string) => voi
     options.sourceDir,
     options.outDir,
     "**/*.*",
-    [`**/*.{${options.extensions.map(ext => ext.replace(/^\.+/, "")).join(",")}}`].concat(
-      options.exclude || [],
+    (options.exclude || []).concat(
+      options.extensions.length === 1
+        ? [`**/*.${options.extensions[0].replace(/^\.+/, "")}`]
+        : [`**/*.{${options.extensions.map(ext => ext.replace(/^\.+/, "")).join(",")}}`],
     ),
     options.sourceDir,
   );

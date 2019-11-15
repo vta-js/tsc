@@ -143,6 +143,12 @@ describe("tsc", () => {
       )
       .then(() =>
         testDistFile(
+          path.resolve(__dirname, "__snapshots__/dist/node-12.6.0-no-tsx/utils/filteFiles.ts"),
+          false,
+        ),
+      )
+      .then(() =>
+        testDistFile(
           path.resolve(__dirname, "__snapshots__/dist/node-12.6.0-no-tsx/utils/helper/button.js"),
           false,
         ),
