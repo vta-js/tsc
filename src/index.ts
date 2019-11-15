@@ -14,6 +14,7 @@ export interface TscOption {
   esnext?: boolean;
   extTs?: string;
   extJs?: string;
+  exclude?: string[];
   silent?: boolean;
   cwd?: string;
 }
@@ -44,6 +45,7 @@ export default async function tsc(options: TscOption): Promise<Error> {
         outDir: tsOutDir,
         project: path.resolve(cwd, options.project || "tsconfig.json"),
         extensions: (options.extTs || "ts").split(","),
+        exclude: options.exclude || [],
         withBabel: options.babel !== false,
         esnext: options.esnext !== false,
         cwd,

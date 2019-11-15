@@ -8,6 +8,7 @@ export interface TscOptions {
   outDir: string;
   project: string;
   extensions: string[];
+  exclude: string[];
   withBabel: boolean;
   esnext: boolean;
   cwd: string;
@@ -38,7 +39,10 @@ export default async function tsc(options: TscOptions, log: (msg: string) => voi
   await copyFiles(
     options.sourceDir,
     options.outDir,
-    `**/*.!(${options.extensions.map(ext => ext.replace(/^\.+/, "")).join("|")})`,
+    "**/*.*",
+    [`**/*.{${options.extensions.map(ext => ext.replace(/^\.+/, "")).join(",")}}`].concat(
+      options.exclude || [],
+    ),
     options.sourceDir,
   );
 }

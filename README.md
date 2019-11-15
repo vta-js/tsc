@@ -57,6 +57,7 @@ export interface TscOption {
   esnext?: boolean;
   extTs?: string;
   extJs?: string;
+  exclude?: string[];
   silent?: boolean;
   cwd?: string;
 }
@@ -97,6 +98,10 @@ the extensions that compile using Typescript,split by `,`. default is `ts`
 ### extJs,--ext-js
 
 the extensions that compile using Babel,split by `,`. default is `js`
+
+### exclude,--exclude
+
+the patterns of [glob](https://github.com/isaacs/node-glob) to exclude. split by `,` for cli usage;
 
 ### silent --silent
 

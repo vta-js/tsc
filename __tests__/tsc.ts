@@ -7,7 +7,7 @@ jest.setTimeout(100000);
 
 describe("utils", () => {
   it("filteFiles", () => {
-    return filteFiles("**/*.!(ts|tsx)", path.resolve(__dirname, "./data/project/src")).then(
+    return filteFiles("**/*.!(ts|tsx)", [], path.resolve(__dirname, "./data/project/src")).then(
       files => {
         expect(files.length).toBe(3);
       },
@@ -102,6 +102,28 @@ describe("tsc", () => {
       .then(() =>
         testDistFile(
           path.resolve(__dirname, "__snapshots__/dist/node-12.6.0-no-jsx/utils/button.js"),
+          false,
+        ),
+      ));
+
+  it("node-12.6.0-exclude-jsx", () =>
+    tsc({
+      project: "tsconfig-build-nodts.json",
+      outDir: "../../__snapshots__/dist/node-12.6.0-exclude-jsx",
+      extTs: ".ts,.tsx",
+      extJs: ".js",
+      exclude: ["**/*.jsx"],
+      cwd: path.resolve(__dirname, "./data/project"),
+    })
+      .then(() =>
+        testDistFile(
+          path.resolve(__dirname, "__snapshots__/dist/node-12.6.0-exclude-jsx/utils/button.jsx"),
+          false,
+        ),
+      )
+      .then(() =>
+        testDistFile(
+          path.resolve(__dirname, "__snapshots__/dist/node-12.6.0-exclude-jsx/utils/button.js"),
           false,
         ),
       ));

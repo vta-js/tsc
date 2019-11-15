@@ -19,8 +19,9 @@ export default async function copyFiles(
   from: string,
   dest: string,
   pattern: string,
+  ignore: string[],
   cwd: string,
 ): Promise<void> {
-  const files = await filteFiles(pattern, cwd);
+  const files = await filteFiles(pattern, ignore, cwd);
   await copyFilesOneByOne(from, dest, files);
 }

@@ -3,12 +3,14 @@ import glob from "glob";
 
 export default function filteFiles(
   pattern = "**/*.*",
+  ignore: string[] = [],
   cwd: string = process.cwd(),
 ): Promise<string[]> {
   return new Promise((resolve, reject) => {
     glob(
       pattern,
       {
+        ignore,
         cwd,
         realpath: true,
       },

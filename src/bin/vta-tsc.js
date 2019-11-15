@@ -17,6 +17,7 @@ program
     "--ext-js <extensions>",
     "the file extensions that need to be compiled by babel,default js",
   )
+  .option("--exclude <globs>", "the patterns of glob to exclude")
   .option("--silent", "do not display any except error message")
   .parse(process.argv);
 
@@ -28,5 +29,6 @@ tsc({
   esnext: program.esnext,
   extTs: program.extTs,
   extJs: program.extJs,
+  exclude: program.exclude ? program.exclude.split(",") : [],
   silent: program.silent,
 });
