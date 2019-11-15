@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/vta-js/tsc/compare/v1.1.0...v1.1.1) (2019-11-15)
+
+### Bug Fixes
+
+- extTs or extJs has only one ext, don't output ([401cefd](https://github.com/vta-js/tsc/commit/401cefd38acbb12961d73f9d4c04531d89ce7a16))
+
 # [1.1.0](https://github.com/vta-js/tsc/compare/v1.0.6...v1.1.0) (2019-11-15)
 
 ### Features
