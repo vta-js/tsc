@@ -701,10 +701,10 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.4.5", "@babel/runtime@^7.7.0":
-  version "7.7.2"
-  resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.7.2.tgz#111a78002a5c25fc8e3361bedc9529c696b85a6a"
-  integrity sha1-ERp4ACpcJfyOM2G+3JUpxpa4Wmo=
+"@babel/runtime@^7.4.5", "@babel/runtime@^7.7.5":
+  version "7.7.5"
+  resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.7.5.tgz#4b087f183f5d83647744d4157f66199081d17a00"
+  integrity sha1-Swh/GD9dg2R3RNQVf2YZkIHRegA=
   dependencies:
     regenerator-runtime "^0.13.2"
 
