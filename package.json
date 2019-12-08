@@ -78,7 +78,7 @@
     "@vta/eslint-config-react": "^1.0.0",
     "@vta/eslint-config-typescript": "^1.0.0",
     "@vta/format-npm-yarn-lock": "^1.0.0",
-    "conventional-changelog-cli": "^2.0.0",
+    "conventional-changelog-cli": "^2.0.30",
     "cross-spawn": "^7.0.0",
     "eslint": "^6.6.0",
     "husky": "^3.0.0",
