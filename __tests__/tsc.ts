@@ -199,4 +199,28 @@ describe("tsc", () => {
     }).then(() =>
       testDistFile(path.resolve(__dirname, "__snapshots__/dist/node-4.0.0/utils/copyFiles.js")),
     ));
+
+  it("fail-tsconfig", () =>
+    tsc({
+      project: "tsconfig-fail.json",
+      outDir: "../../__snapshots__/dist/fail-tsconfig",
+      cwd: path.resolve(__dirname, "./data/project-fail"),
+    }).then(err => {
+      expect(!!err).toBe(true);
+      expect(err.message.indexOf("Cannot use JSX unless the '--jsx' flag is provided") >= 0).toBe(
+        true,
+      );
+    }));
+
+  it("fail-babel", () =>
+    tsc({
+      babel: "babel-fail.config.js",
+      outDir: "../../__snapshots__/dist/fail-babel",
+      cwd: path.resolve(__dirname, "./data/project-fail"),
+    }).then(err => {
+      expect(!!err).toBe(true);
+      expect(err.message.indexOf("Cannot find module '@vta/tsc-invalid-babel-plugin'") >= 0).toBe(
+        true,
+      );
+    }));
 });

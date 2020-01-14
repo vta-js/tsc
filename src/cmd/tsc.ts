@@ -31,9 +31,6 @@ export default async function tsc(options: TscOptions, log: (msg: string) => voi
     ].concat(
       options.withBabel && options.esnext ? ["--module", "esnext", "--target", "esnext"] : [],
     ),
-    {
-      stdio: ["ignore", "ignore", "inherit"],
-    },
   );
   log(`tsc: copy files from ${chalk.cyan(sourceDir)} to ${chalk.cyan(outDir)}`);
   await copyFiles(

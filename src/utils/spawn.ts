@@ -2,25 +2,44 @@ import { SpawnOptions } from "child_process";
 import crossSpawn from "cross-spawn";
 import chalk from "chalk";
 
-export default async function spawn(
+function spawn(command: string, options?: SpawnOptions): Promise<void>;
+function spawn(command: string, args?: string[], options?: SpawnOptions): Promise<void>;
+function spawn(
   command: string,
-  args?: string[],
+  argsOrOptions?: string[] | SpawnOptions,
   options: SpawnOptions = {},
 ): Promise<void> {
+  const args = Array.isArray(argsOrOptions) ? argsOrOptions : [];
   return new Promise((resolve, reject) => {
-    const p = crossSpawn(command, args, {
-      cwd: process.cwd(),
-      stdio: ["pipe", "pipe", "pipe"],
-      ...options,
-    });
-    p.on("close", code => {
+    const p = crossSpawn(command, args, Array.isArray(argsOrOptions) ? options : argsOrOptions);
+
+    let errorProcessed = false;
+
+    const errorProcessor = (err: Error) => {
+      if (errorProcessed) return;
+      errorProcessed = true;
+      reject(err);
+    };
+
+    p.on("exit", (code, signal) => {
       if (code === 0) {
         resolve();
+      } else if (signal) {
+        errorProcessor(new Error(`child_processor exit by signal ${chalk.yellow(signal)} `));
       } else {
-        console.log(`\n[command]:${chalk.cyan(command)}`);
-        reject(new Error(`spawn execute fail: code ${code}`));
+        let errMsg = p.stderr?.read()?.toString("utf-8");
+        if (!errMsg) {
+          errMsg = p.stdout?.read()?.toString("utf-8");
+        }
+        errorProcessor(
+          new Error(errMsg || `child_processor exit with code ${chalk.yellow(code.toString())}`),
+        );
       }
     });
-    p.on("error", reject);
+    p.on("error", err => {
+      errorProcessor(err);
+    });
   });
 }
+
+export default spawn;

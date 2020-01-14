@@ -14,23 +14,17 @@ export default async function babel(
   log: (msg: string) => void,
 ): Promise<void> {
   log(`babel: build files to ${chalk.cyan(path.relative(options.cwd, options.outDir))}`);
-  await spawn(
-    "babel",
-    [
-      options.sourceDir,
-      "--config-file",
-      options.project,
-      "--out-dir",
-      options.outDir,
-      "--extensions",
-      options.extensions
-        .map(ext => ext.replace(/^\.+/, ""))
-        .map(ext => `.${ext}`)
-        .join(","),
-      "--copy-files",
-    ],
-    {
-      stdio: ["ignore", "ignore", "inherit"],
-    },
-  );
+  await spawn("babel", [
+    options.sourceDir,
+    "--config-file",
+    options.project,
+    "--out-dir",
+    options.outDir,
+    "--extensions",
+    options.extensions
+      .map(ext => ext.replace(/^\.+/, ""))
+      .map(ext => `.${ext}`)
+      .join(","),
+    "--copy-files",
+  ]);
 }
