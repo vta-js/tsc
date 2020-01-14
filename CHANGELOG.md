@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/vta-js/tsc/compare/v1.1.1...v1.1.2) (2020-01-14)
+
+### Features
+
+- spawn can export err messages from stderr or stdout ([dc37ecc](https://github.com/vta-js/tsc/commit/dc37eccb982a86d5b3a67878232ae04e56d9e7b2))
+
 ## [1.1.1](https://github.com/vta-js/tsc/compare/v1.1.0...v1.1.1) (2019-11-15)
 
 ### Bug Fixes
