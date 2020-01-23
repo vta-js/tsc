@@ -82,12 +82,12 @@
     "cross-spawn": "^7.0.0",
     "eslint": "^6.6.0",
     "husky": "^4.0.0",
-    "jest": "^24.8.0",
+    "jest": "^25.1.0",
     "lint-staged": "^9.4.0",
     "prettier": "^1.18.0",
     "react": "^16.10.0",
     "rimraf": "^3.0.0",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "^25.0.0",
     "typescript": "^3.7.0"
   },
   "dependencies": {
