@@ -321,7 +321,7 @@ exports[`tsc node-12.6.0-no-jsx 1`] = `
 console.log(\\"utils.button\\");
 
 export function delay(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export default ({ text: propText }) => {
@@ -341,7 +341,7 @@ exports[`tsc node-12.6.0-no-tsx 1`] = `
 console.log(\\"utils.helper.button\\");
 
 export function delay(ms): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 export default ({ text: propText }: { text: string }): React.ReactNode => {

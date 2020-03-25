@@ -9,12 +9,12 @@ it("build dist files", () => {
     project: "tsconfig-build.json",
   })
     .then(() => {
-      return fse.pathExists(path.resolve(__dirname, "../dist/index.js")).then(exists => {
+      return fse.pathExists(path.resolve(__dirname, "../dist/index.js")).then((exists) => {
         expect(exists).toBe(true);
       });
     })
     .then(() => {
-      return fse.pathExists(path.resolve(__dirname, "../dist/index.d.ts")).then(exists => {
+      return fse.pathExists(path.resolve(__dirname, "../dist/index.d.ts")).then((exists) => {
         expect(exists).toBe(true);
       });
     });

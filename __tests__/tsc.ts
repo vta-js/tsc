@@ -8,7 +8,7 @@ jest.setTimeout(100000);
 describe("utils", () => {
   it("filteFiles", () => {
     return filteFiles("**/*.!(ts|tsx)", [], path.resolve(__dirname, "./data/project/src")).then(
-      files => {
+      (files) => {
         expect(files.length).toBe(3);
       },
     );
@@ -16,10 +16,10 @@ describe("utils", () => {
 });
 
 function testDistFile(file: string, expectedExists = true): Promise<void> {
-  return fse.pathExists(file).then(exists => {
+  return fse.pathExists(file).then((exists) => {
     expect(exists).toBe(expectedExists);
     if (expectedExists) {
-      return fse.readFile(file).then(content => {
+      return fse.readFile(file).then((content) => {
         expect(content.toString("utf-8")).toMatchSnapshot();
       });
     }
@@ -205,7 +205,7 @@ describe("tsc", () => {
       project: "tsconfig-fail.json",
       outDir: "../../__snapshots__/dist/fail-tsconfig",
       cwd: path.resolve(__dirname, "./data/project-fail"),
-    }).then(err => {
+    }).then((err) => {
       expect(!!err).toBe(true);
       expect(err.message.indexOf("Cannot use JSX unless the '--jsx' flag is provided") >= 0).toBe(
         true,
@@ -217,7 +217,7 @@ describe("tsc", () => {
       babel: "babel-fail.config.js",
       outDir: "../../__snapshots__/dist/fail-babel",
       cwd: path.resolve(__dirname, "./data/project-fail"),
-    }).then(err => {
+    }).then((err) => {
       expect(!!err).toBe(true);
       expect(err.message.indexOf("Cannot find module '@vta/tsc-invalid-babel-plugin'") >= 0).toBe(
         true,

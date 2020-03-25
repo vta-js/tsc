@@ -36,7 +36,7 @@ function spawn(
         );
       }
     });
-    p.on("error", err => {
+    p.on("error", (err) => {
       errorProcessor(err);
     });
   });

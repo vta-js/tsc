@@ -22,8 +22,8 @@ export default async function babel(
     options.outDir,
     "--extensions",
     options.extensions
-      .map(ext => ext.replace(/^\.+/, ""))
-      .map(ext => `.${ext}`)
+      .map((ext) => ext.replace(/^\.+/, ""))
+      .map((ext) => `.${ext}`)
       .join(","),
     "--copy-files",
   ]);

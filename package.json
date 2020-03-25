@@ -18,7 +18,7 @@
     "test:u": "jest --updateSnapshot",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "pre-commit": "yarn lint-staged",
-    "format": "prettier --write \"**/*.{js,ts,json}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json}\"",
     "format-lock": "vta-format-npm-yarn-lock",
     "dep-upgrade": "yarn upgrade && yarn run format-lock"
   },
@@ -82,7 +82,7 @@
     "husky": "^4.0.0",
     "jest": "^25.0.0",
     "lint-staged": "^10.0.0",
-    "prettier": "^1.18.0",
+    "prettier": "^2.0.0",
     "react": "^16.10.0",
     "rimraf": "^3.0.0",
     "ts-jest": "^25.0.0",

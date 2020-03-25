@@ -18,7 +18,7 @@ export default function filteFiles(
         if (err) {
           reject(err);
         } else {
-          resolve(matches.map(file => path.relative(cwd, file)));
+          resolve(matches.map((file) => path.relative(cwd, file)));
         }
       },
     );
