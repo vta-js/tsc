@@ -69,7 +69,7 @@
     "@types/cross-spawn": "^6.0.0",
     "@types/fs-extra": "^8.0.0",
     "@types/glob": "^7.0.0",
-    "@types/jest": "^24.0.0",
+    "@types/jest": "^25.0.0",
     "@types/node": "^13.0.0",
     "@types/react": "^16.9.0",
     "@types/tmp": "^0.1.0",
@@ -80,12 +80,12 @@
     "cross-spawn": "^7.0.0",
     "eslint": "^6.6.0",
     "husky": "^4.0.0",
-    "jest": "^24.8.0",
+    "jest": "^25.0.0",
     "lint-staged": "^10.0.0",
     "prettier": "^1.18.0",
     "react": "^16.10.0",
     "rimraf": "^3.0.0",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "^25.0.0",
     "typescript": "^3.8.0"
   },
   "dependencies": {
