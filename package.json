@@ -31,12 +31,10 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": [
       "prettier --write",
-      "eslint",
-      "git add"
+      "eslint"
     ],
     "*.{json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "commitlint": {
@@ -72,7 +70,7 @@
     "@types/fs-extra": "^8.0.0",
     "@types/glob": "^7.0.0",
     "@types/jest": "^24.0.0",
-    "@types/node": "^12.12.0",
+    "@types/node": "^13.0.0",
     "@types/react": "^16.9.0",
     "@types/tmp": "^0.1.0",
     "@vta/eslint-config-react": "^1.0.0",
@@ -83,7 +81,7 @@
     "eslint": "^6.6.0",
     "husky": "^4.0.0",
     "jest": "^24.8.0",
-    "lint-staged": "^9.4.0",
+    "lint-staged": "^10.0.0",
     "prettier": "^1.18.0",
     "react": "^16.10.0",
     "rimraf": "^3.0.0",
@@ -93,10 +91,10 @@
   "dependencies": {
     "@babel/runtime": "^7.8.0",
     "chalk": "^3.0.0",
-    "commander": "^4.0.0",
+    "commander": "^5.0.0",
     "core-js": "^3.6.0",
     "cross-spawn": "^7.0.0",
-    "fs-extra": "^8.0.0",
+    "fs-extra": "^9.0.0",
     "glob": "^7.0.0",
     "ora": "^4.0.0",
     "tmp": "^0.1.0"
