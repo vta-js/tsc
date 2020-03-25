@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/vta-js/tsc/compare/v1.1.2...v1.1.3) (2020-03-25)
+
+### Features
+
+- support typescript 3.8.x ([c0551e2](https://github.com/vta-js/tsc/commit/c0551e2ab8210758bae0c7fca07a0ccad15f7fb4))
+- **deps:** bump fs-extra/commander ([4b57d21](https://github.com/vta-js/tsc/commit/4b57d211a6224638f8372c5222341a4bd51d5d32))
+
 ## [1.1.2](https://github.com/vta-js/tsc/compare/v1.1.1...v1.1.2) (2020-01-14)
 
 ### Features
