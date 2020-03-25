@@ -52,9 +52,7 @@ function copyFiles(_x, _x2, _x3, _x4) {
 }
 
 function _copyFiles() {
-  _copyFiles = (0, _asyncToGenerator2.default)(
-  /*#__PURE__*/
-  _regenerator.default.mark(function _callee(from, dest, pattern, cwd) {
+  _copyFiles = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(from, dest, pattern, cwd) {
     var files;
     return _regenerator.default.wrap(function _callee$(_context) {
       while (1) {
