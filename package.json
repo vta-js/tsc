@@ -71,7 +71,7 @@
     "@types/glob": "^7.0.0",
     "@types/jest": "^25.0.0",
     "@types/node": "^13.0.0",
-    "@types/react": "^16.9.0",
+    "@types/react": "^16.9.28",
     "@types/tmp": "^0.1.0",
     "@vta/eslint-config-react": "^1.0.0",
     "@vta/eslint-config-typescript": "^1.0.0",
