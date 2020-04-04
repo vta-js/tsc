@@ -1,3 +1,9 @@
+## [1.1.4](https://github.com/vta-js/tsc/compare/v1.1.3...v1.1.4) (2020-04-04)
+
+### Features
+
+- **deps:** bump chalk to 4.x ([2e405da](https://github.com/vta-js/tsc/commit/2e405dad40ea611c8c2a7e7f91c11153a3ec74a1))
+
 ## [1.1.3](https://github.com/vta-js/tsc/compare/v1.1.2...v1.1.3) (2020-03-25)
 
 ### Features
