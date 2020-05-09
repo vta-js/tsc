@@ -85,7 +85,7 @@
     "prettier": "^2.0.0",
     "react": "^16.10.0",
     "rimraf": "^3.0.0",
-    "ts-jest": "^25.0.0",
+    "ts-jest": "^25.5.1",
     "typescript": "^3.8.0"
   },
   "dependencies": {
