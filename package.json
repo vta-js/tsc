@@ -92,7 +92,7 @@
     "@babel/runtime": "^7.8.0",
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
-    "core-js": "^3.6.0",
+    "core-js": "^3.8.0",
     "cross-spawn": "^7.0.0",
     "fs-extra": "^9.0.0",
     "glob": "^7.0.0",
